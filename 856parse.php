@@ -6,6 +6,19 @@ $mylistc = array_map('str_getcsv', file($tmpName));	//load file into array attem
 
 
 
+FormatTime, CurrentTime1, , yyMMdd
+  
+FormatTime, CurrentTime2, , HHmm
+
+FormatTime, CurrentTime3, , yyyyMMdd
+    echo date("Ymd");
+
+FormatTime, CurrentTime4, , HHmmss
+
+
+
+
+
 $BSN03 = $CurrentTime3;
 $BSN04 = $CurrentTime2;
 $DTM01 = $CurrentTime3;
